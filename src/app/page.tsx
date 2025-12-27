@@ -41,7 +41,7 @@ export default function Home() {
                         {score == 0 && (
                             <div className="mt-5 text-center">
                                 <button
-                                    className="bg-rose-400 text-white px-10 py-3 rounded-md font-bold"
+                                    className="bg-rose-400 text-white px-10 py-3 rounded-md font-bold cursor-pointer"
                                     type="submit"
                                 >
                                     Lihat Hasil
@@ -69,7 +69,7 @@ export default function Home() {
                                 </div>
                                 <div className="mt-8">
                                     <button
-                                        className="flex justify-center items-center gap-3 text-rose-400 font-semibold text-center w-full"
+                                        className="flex justify-center items-center gap-3 text-rose-400 font-semibold text-center w-full cursor-pointer"
                                         onClick={() => setScore(0)}
                                     >
                                         <RefreshCcw />
